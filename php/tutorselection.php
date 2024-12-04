@@ -174,7 +174,7 @@ if ($result) {
 // Message button to redirect to Teams chat
 $email = $row['email'];
 $teamsLink = "https://teams.microsoft.com/l/chat/0/0?users=" . urlencode($email);
-echo "<a href='" . $teamsLink . "' target='_blank' class='btn btn-outline-secondary mt-2'>Send Message</a>";
+echo "<a href='" . $teamsLink . "' target='_blank' class='btn btn-outline-secondary mt-2'>Message</a>";
 
             echo "</div>";
             echo "</div>";

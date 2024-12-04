@@ -167,7 +167,7 @@ if ($result) {
       echo "<button class='btn btn-outline-custom1' data-toggle='modal' data-target='#detailsModal_$sessionID'>View Details</button>";
       // Add Message Button to redirect to Teams chat
       $teamsLink = "https://teams.microsoft.com/l/chat/0/0?users=" . urlencode($tutorEmail);
-      echo "<a href='" . $teamsLink . "' target='_blank' class='btn btn-outline-custom2 messageBtn'>Send Message</a>";
+      echo "<a href='" . $teamsLink . "' target='_blank' class='btn btn-outline-custom2 messageBtn'>Message</a>";
   
       echo "</div>";
       echo "</div>";
